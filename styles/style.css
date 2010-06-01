@@ -1,0 +1,129 @@
+body
+{
+	background-color: #2e196f;
+}
+#container
+{
+width: 60em;
+margin: 10px auto;
+background-color: #ddd;
+/*background-image: url(../images/gradient.jpg);*/
+background-repeat: repeat-y;
+color: #333;
+border: 1px solid gray;
+line-height: 130%;
+}
+
+
+
+#logo a {
+    background:  url(../images/logo_edited.png) top left no-repeat;
+    display: block;
+    width: 160px;
+    height: 106px;
+    overflow: hidden;
+    text-indent: -9000em; 
+}
+
+#top
+{
+/*padding: .5em;*/
+background-color: #ddd;
+border-bottom: 1px solid gray;
+}
+
+#top h1
+{
+padding: 0;
+margin: 0;
+}
+
+#leftnav
+{
+float: left;
+width: 9em;
+margin: 0;
+padding: 1em 0em 1em 1em;
+}
+
+#content
+{
+margin-left:10em;
+padding: 1em;
+max-width: 50em;
+background-color: #eee;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+background-color: #ddd;
+border-top: 1px solid gray;
+}
+
+#leftnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }
+
+#navigation
+{
+	color:white;
+	font-family:"Trebuchet MS";
+	font-size:12pt;
+	font-weight:bold;
+	line-height:113%;
+	text-decoration:none;
+}
+
+#navigation a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#navigation a:hover
+{
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid blue;
+	margin-left: 0.5em;
+	border-bottom: 2px solid blue;
+	-webkit-transition-duration: .5s;
+}
+
+
+ul#navigation 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#navigation li
+{
+	background-image: url(../images/nav-bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 .4em;
+	padding-left: .8em;
+	margin-bottom: .5em;
+	
+}
+
+ul#navigation li#active
+{
+	background-image: url(../images/nav-bullet-active.jpg);
+}
+
+.floatleft
+{
+	float: left;
+	padding: 1em 1em 1em 0em;
+}
+
+.floatright
+{
+	float: right;
+	padding: 1em 0em 1em 1em;
+}
