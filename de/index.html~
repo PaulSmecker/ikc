@@ -1,17 +1,20 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
 	<link rel="stylesheet" type="text/css" href="../styles/style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Ines Kröner Consulting</title> 
 </head>
 <body>
 	<div id="container">
 		<div id="top">
-			<div id="logo"><a href="index.html">Ines Kr&ouml;ner Consulting</a>Ines Kr&ouml;ner Consulting &nbsp; Competence in PCB</div>
-
+			<div id="logo"><a href="index.html">Ines Kröner Consulting</a></div>
+			
 		</div>
 		<div id="leftnav">
 			<ul id="navigation">
 				<li id="active"><a href="index.html">Willkommen</a></li>
-				<li><a href="about.html">Wir &uuml;ber uns</a></li>
+				<li><a href="about.html">Wir über uns</a></li>
 				<li><a href="contact.html">Kontakt</a></li>
 				<li><a href="service.html">Leistungen</a></li>
 				<li><a href="">Impressum</a></li>
@@ -22,13 +25,10 @@
 			</ul>
 		</div>
 		<div id="content" lang="de">
-			<img class="floatleft" src="../images/board.jpg" alt="">
-			Die Firma Ines Kr&ouml;ner Consulting (IKC) wurde am 02. Februar 2010 durch Ines Kr&ouml;ner gegr&uuml;ndet.<br /><br />
-Unter Wir &uuml;ber uns erfahren Sie etwas &uuml;ber die Kompetenzen der IKC. Sie k&ouml;nnen sich &uuml;ber berufliche Erfahrungen und Abschl&uuml;sse informieren.<br /><br />
-			<img class="floatright" src="../images/board.jpg" alt="">
-Der Firmensitz ist im Bundesstaat Bayern in Schongau, ca. eine Autostunde s&uuml;dwestlich von M&uuml;nchen. Klicken Sie &uuml;ber n&auml;here Einzelheiten Kontakt.<br /><br />
-Die IKC besch&auml;ftigt sich mit der fachlichen Betreuung von Leiterplatten-Kunden und Zulieferern der Leiterplattenindustrie. Die Kompetenz liegt hierbei in der technischen und betriebswirtschaftlichen Betreuung von Produktionsprozessen sowie in Optimierungsprozessen hinsichtlich Durchlauf, verwendeter Technologie und der Erh&ouml;hung der Ausbeute.
-Mehr hierzu finden Sie unter Leistungen.
+			<img class="floatleft" src="../images/board.jpg" alt="" />
+			<img class="floatright" src="../images/board.jpg" alt="" />
+			<p>Die IKC beschäftigt sich mit der fachlichen Betreuung von Leiterplatten-Kunden und Zulieferern der Leiterplattenindustrie. Die Kompetenz liegt hierbei in der technischen und betriebswirtschaftlichen Betreuung von Produktionsprozessen sowie in Optimierungsprozessen hinsichtlich Durchlauf, verwendeter Technologie und der Erhöhung der Ausbeute.
+Mehr hierzu finden Sie unter Leistungen.</p>
 		</div>
 		<div id="footer">
 		Footer

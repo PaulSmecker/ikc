@@ -1,13 +1,21 @@
 fb_focus_follow: 1
 view_cline: 1
 e2c.convert_iso: 0
+searchlist: &
+searchlist: box
+searchlist: inline
+searchlist: dark-blue
 wrap_text_default: 0
 outputb_scroll_mode: 0
 files: /home/korbinian/Dokumente/webpage_ikc/de/index.html
 files: /home/korbinian/Dokumente/webpage_ikc/styles/style.css
+files: /home/korbinian/Dokumente/webpage_ikc/de/about.html
+files: /home/korbinian/Dokumente/webpage_ikc/de/service.html
 c2e.convert_iso: 0
-recent_files: file:///home/korbinian/Dokumente/webpage_ikc/styles/style.css
+recent_files: file:///home/korbinian/Dokumente/webpage_ikc/de/service.html
+recent_files: file:///home/korbinian/Dokumente/webpage_ikc/de/about.html
 recent_files: file:///home/korbinian/Dokumente/webpage_ikc/de/index.html
+recent_files: file:///home/korbinian/Dokumente/webpage_ikc/styles/style.css
 snippets_show_as_menu: 1
 show_mbhl: 1
 adv_open_recursive: 0
@@ -19,6 +27,7 @@ fb_viewmode: 0
 template: /usr/share/bluefish/templates/HTML 5
 bookmarks_show_mode: 0
 bmarksearchmode: 0
+replacelist: #2e196f
 e2c.convert_xml: 1
 e2c.convert_num: 0
 view_line_numbers: 1
@@ -45,6 +54,6 @@ outputb_show_all_output: 0
 spell_check_default: 1
 recent_dirs: file:///home/korbinian/Dokumente/webpage_ikc
 fb_show_backup_f: 0
-opendir: file:///home/korbinian/Dokumente/webpage_ikc/styles
-savedir: file:///home/korbinian/Dokumente/webpage_ikc/styles
+opendir: file:///home/korbinian/Dokumente/webpage_ikc/de
+savedir: file:///home/korbinian/Dokumente/webpage_ikc/de
 adv_open_matchname: 0

@@ -1,6 +1,8 @@
 body
 {
 	background-color: #2e196f;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
 }
 #container
 {
@@ -14,7 +16,22 @@ border: 1px solid gray;
 line-height: 130%;
 }
 
+.box
+{
+	float: left;
+	width: 22em;
+	margin : 1em;
+}
 
+.box h4, .box h3
+{
+	margin: 0em;
+}
+
+.clearbox
+{
+	clear: both;
+}
 
 #logo a {
     background:  url(../images/logo_edited.png) top left no-repeat;
@@ -44,6 +61,9 @@ float: left;
 width: 9em;
 margin: 0;
 padding: 1em 0em 1em 1em;
+color: #2e196f;
+font-family: Arial;
+font-size: 1em;
 }
 
 #content
@@ -69,9 +89,6 @@ border-top: 1px solid gray;
 
 #navigation
 {
-	color:white;
-	font-family:"Trebuchet MS";
-	font-size:12pt;
 	font-weight:bold;
 	line-height:113%;
 	text-decoration:none;
@@ -79,17 +96,16 @@ border-top: 1px solid gray;
 
 #navigation a
 {
-	color: white;
+	color: #2e196f;
 	text-decoration: none;
 }
 
 #navigation a:hover
 {
-	color: white;
+	color: #2e196f;
 	text-decoration: none;
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid #2e196f;
 	margin-left: 0.5em;
-	border-bottom: 2px solid blue;
 	-webkit-transition-duration: .5s;
 }
 
@@ -114,6 +130,42 @@ ul#navigation li
 ul#navigation li#active
 {
 	background-image: url(../images/nav-bullet-active.jpg);
+}
+
+#language
+{
+	font-weight:bold;
+	display: block;
+}
+
+#language li
+{
+display: inline;
+list-style: none;
+}
+
+
+#language li a:hover
+{
+	color: #2e196f;
+	position: relative;
+	bottom: 0em;
+	border-bottom: 2px solid darkblue;
+}
+
+#language li a
+{
+	color: #2e196f;
+	position: relative;
+	bottom: 0em;
+	text-decoration: none;
+}
+
+
+ul#language
+{
+list-style-type: none;
+padding-left: 0em;
 }
 
 .floatleft
